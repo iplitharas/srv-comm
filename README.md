@@ -7,12 +7,10 @@
 <!-- TOC -->
   * [Table of Contents](#table-of-contents)
   * [About the project](#about-the-project)
-  * [Installation](#installation)
-    * [Install the project 🛠️](#install-the-project-)
+  * [Installation 🛠️](#installation-)
   * [Usage](#usage)
   * [Running test cases](#running-test-cases)
 <!-- TOC -->
-
 
 ## About the project
 The project is structured with two different modules, the `server` and the `client.`
@@ -29,9 +27,8 @@ The entrypoint for the client service is at
 * and the entrypoint for the server service is at `src/server.py`
 
 
-## Installation
+## Installation 🛠️
 
-### Install the project 🛠️
 To automate the whole process of installing the project and its dependencies, the project list
 the python dependencies in the `pyproject.toml` file and a `MakeFile` to automate the process.
 The requirements are `poetry`, `make` and `pyenv` to manage the python version.
