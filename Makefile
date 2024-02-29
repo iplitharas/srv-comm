@@ -14,9 +14,6 @@ install-hooks: ## Install hooks
 clean-hooks: ## Clean hooks
 	pre-commit clean
 
-install-vs-code-extensions:
-	code --install-extension charliermarsh.ruff 	
-
 setup-local-dev: poetry-install install-hooks ## Setup the local environment
 
 test: ## Run pytest with coverage and html report
@@ -25,7 +22,7 @@ test: ## Run pytest with coverage and html report
 test-local: ## Run pytest with coverage without generating the report
 	poetry run pytest . -vv -p no:warnings --cov=.
 
-fmt: ## Run ruff formater in all files under src
+fmt: ## Run ruff formatter in all files under src
 	poetry run ruff format src
 
 lint:  ## Run ruff linter in all files under src
