@@ -25,7 +25,7 @@ class FakeResponse:
 def test_http_client_can_make_a_post_successfully():
     """
     Given a `HttpClient` instance and a mock version of requests.
-    When I call the `sent` method with some url with some data,
+    When I call the `send` method with some url with some data,
     Then the request should be made successfully and the post method should be called once
     with the right arguments.
     """
@@ -45,7 +45,7 @@ def test_http_client_can_make_a_post_successfully():
 def test_http_client_fails_to_make_a_post():
     """
     Given a `HttpClient` instance and a mock  version of requests
-    When I call the `sent` method with some url with some data,
+    When I call the `send` method with some url with some data,
     Then the request should fail to be made and the exception should be raised.
     """
     # Given
