@@ -10,6 +10,7 @@
   * [Installation 🛠️](#installation-)
   * [Usage](#usage)
   * [Running test cases](#running-test-cases)
+  * [Missing Features](#missing-features)
 <!-- TOC -->
 
 ## About the project
@@ -66,4 +67,7 @@ To run the test cases, run the following command in the terminal
 make test-local
 ```
 
-
+## Missing Features
+1. Refactor all constants to a single `config` using `pydantic settings` to manage the
+configuration of the server and the client using environment variables.
+2. Add a `Dockerfile` to containerize the server and the client.
