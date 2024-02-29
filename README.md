@@ -59,9 +59,9 @@ In a separate terminal, run the following command to test the server,
 by default the client will send 10 requests to the server,
 you can change the number of requests by changing the argument.
 ```bash
-python -m src.client 3
+python -m src.client 30
 ```
-
+![sample-out.png](sample-out.png)
 
 ## Running test cases
 To run the test cases, run the following command in the terminal
